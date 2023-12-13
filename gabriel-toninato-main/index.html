@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+            <li class="lista-menu_item"><a href="#">bmw <A> </a><li> 
+            <li class="lista-menu_item"><a href="#">mustang <A> </a><li>
+            <li class="lista-menu_item"><a href="#">porshe <A> </a><li>
+            <li class="lista-menu_item"><a href="#">tesla <A> </a><li>
+            <li class="lista-menu_item"><a href="#">ferrari <A> </a><li>
+            <li class="lista-menu_item"><a href="#">golf <A> </a><li>
+            <li class="lista-menu_item"><a href="#">buggati <A> </a><li>
+            <li class="lista-menu_item"><a href="#">camaro <A> </a><li>
+            <li class="lista-menu_item"><a href="#">lamborghinne<A> </a><li>
+            </ul>
+
+           <a href="#"><img class="container__imagem" src="img/logo.jpeg" alt="logo"></a>
+           <h1 class="titulo__cabecalho">toninato carros</h1>
+        </div>
+        <div class="container">
+           <a href="#"><img class="container__imagem" src="img/Favoritos.svg" alt="meus Favoritos"></a>
+           <a href="#"><img class="container__imagem" src="img/Emprestimos.svg" alt="meus empréstimos"></a>
+           <a href="#"><img class="container__imagem" src="img/Usuario.svg" alt="meu perfil"></a>
+        </div>
+    </header>
+    <section class="gridimg">
+        <div class="div-todasimagens">
+            <span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/bmw.jpeg" alt="">
+                <h1 class="titulo">bmw</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/buggati.jpeg" alt="">
+                <h1 class="titulo">buggati</h1>
+            </div>
+            <div class="div-imagem"> 
+                <img class="Imagem" src="img/camaro.jpeg" alt="">
+                <h1 class="titulo">camaro</h1>
+            </div>
+            <span>
+            </span>
+            <span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/ferrari.jpeg" alt="">
+                <h1 class="titulo">ferrari</h1>
+            </div>
+    
+            <div class="div-imagem">
+                <img class="Imagem" src="img/golf.jpeg" alt="">
+                <h1 class="titulo">golf</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/lambo.jpeg" alt="">
+                <h1 class="titulo">lamborghinne</h1>
+            </div>
+            <span>
+            </span>
+            </span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/mustang.jpeg" alt="">
+                <h1 class="titulo">mustang</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/porshe.jpeg" alt="">
+                <h1 class="titulo">porshe</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/tesla.jpeg" alt="">
+                <h1 class="titulo">tesla</h1>
+            </div>
+        </div>
+
+    </section>
+    <section class="livros">
+        <img class="secao__banner" src="img/banner.png" alt="">
+    </section>
+<section class="carrosel">
+
+    <h2 class="titulo__carrosel">Carros</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+    <div class="swiper-slide"><img src="img/imagem1.jpeg"alt=""></div>
+    <div class="swiper-slide"><img src="img/imagem2.jpeg"alt=""></div>
+   <div class="swiper-slide"><img src="img/imagem3.jpeg"alt=""></div>
+   <div class="swiper-slide"><img src="img/imagem4.jpeg"alt=""></div>
+  <div class="swiper-slide"><img src="img/imagem5.jpeg" alt=""></div>
+    <div class="swiper-slide"><img src="img/imagem6.jpeg" alt=""><div>
+   <div class="swiper-slide"><img src="img/imagem7.jpeg" alt=""></div>
+   <div class="swiper-slide"><img src="img/imagem8.jpeg" alt=""></div>
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+
+     <!-- If we need navigation buttons -->
+     <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+     <!-- If we need scrollbar -->
+     <div class="swiper-scrollbar"></div>
+    </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+
+     const swiper = new Swiper('.swiper',{
+     spaceBetween: 10,
+     SlidesPerView:3,
+     pagination: {
+    el: '.swiper-pagination',
+      type: 'bullets',
+          },
+         });
+       </script>
+    </body>
+    </html>
+
+    
+
+                
